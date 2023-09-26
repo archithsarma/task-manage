@@ -11,12 +11,12 @@ A simple API for task management built with Node.js, Express, and MySQL.
 
 1. Clone this repository:
     ```bash
-    git clone [your-repo-link]
+    git clone https://github.com/archithsarma/task-manage
     ```
 
 2. Navigate to the directory:
     ```bash
-    cd [your-repo-directory]
+    cd task-manage
     ```
 
 3. Install the dependencies:
@@ -24,7 +24,7 @@ A simple API for task management built with Node.js, Express, and MySQL.
     npm install
     ```
 
-4. Setup your MySQL database and make sure it's running.
+4. Setup your MySQL database and make sure it's running. Use the dump to set up the schema
 
 5. Update the `config.json` with your database connection details and port:
 
@@ -46,7 +46,7 @@ A simple API for task management built with Node.js, Express, and MySQL.
 
 Start the server:
 ```bash
-node [your-js-file-name]
+npm start
 
 
 ## API Endpoints
